@@ -16,18 +16,16 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-    }
+        val loginBtn: Button = findViewById<Button>(R.id.log)
+        loginBtn.setOnClickListener {
+            val intent = Intent(this, second_page::class.java)
+            startActivity(intent)
+        }
 
-    val logBtn: Button = findViewById(R.id.log)
-    logBtn.setOnClickListener {
-        val intent = Intent(this, second_page::class.java)
-        startActivity(intent)
+        val RegisterBtn: Button = findViewById<Button>(R.id.Reg)
+        RegisterBtn.setOnClickListener {
+            val intent = Intent(this, third_page::class.java)
+            startActivity(intent)
+        }
     }
-
-    val RegBtn: Button = findViewById(R.id.Reg)
-    RegBtn.setOnClickListener {
-        val intent = Intent(this, third_page::class.java)
-        startActivity(intent)
-    }
-
 }

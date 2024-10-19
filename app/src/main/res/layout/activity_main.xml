@@ -14,7 +14,8 @@
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontfamily="poppins"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,6 +26,7 @@
         android:textColor="#1F41BB"
         android:textSize="28dp"
         android:textStyle="bold"
+        android:fontfamily="poppins"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,7 +46,7 @@
 
 
     <Button
-        android:id="log"
+        android:id="@+id/log"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="620dp"
@@ -60,7 +62,7 @@
         />
 
     <Button
-        android:id="Reg"
+        android:id="@+id/Reg"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="620dp"
