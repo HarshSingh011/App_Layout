@@ -17,4 +17,17 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
+    val logBtn: Button = findViewById(R.id.log)
+    logBtn.setOnClickListener {
+        val intent = Intent(this, second_page::class.java)
+        startActivity(intent)
+    }
+
+    val RegBtn: Button = findViewById(R.id.Reg)
+    RegBtn.setOnClickListener {
+        val intent = Intent(this, third_page::class.java)
+        startActivity(intent)
+    }
+
 }
