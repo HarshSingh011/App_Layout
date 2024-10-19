@@ -8,7 +8,7 @@
     tools:context=".third_page">
 
     <TextView
-        android:fontfamily="poppins"
+        android:fontFamily="poppins"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
@@ -23,7 +23,7 @@
         />
 
     <TextView
-        android:fontfamily="poppins"
+        android:fontFamily="poppins"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
