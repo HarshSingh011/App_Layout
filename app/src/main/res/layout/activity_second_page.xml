@@ -38,12 +38,13 @@
         />
 
     <EditText
-        android:style="outlinebox"
+        android:background="@drawable/edittext_prop"
         android:fontFamily="@font/poppins_black"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:hint="Email"
         android:textSize="25dp"
+        android:textColorHint="#757575"
         android:inputType="textPersonName"
         android:layout_marginTop="220dp"
         android:layout_marginRight="45dp"
@@ -52,17 +53,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="#F1F4FF"/>
+        />
 
     <EditText
-        android:autoFocus="true"
+        android:background="@drawable/edittext_prop"
         android:fontFamily="@font/poppins_black"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="320dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:background="#F1F4FF"
         android:layout_marginRight="45dp"
         android:layout_marginLeft="45dp"
         android:textSize="25dp"
@@ -134,11 +134,11 @@
 
     <ImageButton
         android:layout_width="60dp"
+        android:background="@drawable/icon_set"
         android:padding="10dp"
         android:layout_height="60dp"
         android:layout_marginTop="645dp"
         android:src="@drawable/googler"
-        android:background="#ECECEC"
         android:layout_marginRight="180dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -152,8 +152,8 @@
         android:layout_height="60dp"
         android:layout_marginTop="645dp"
         android:scaleType="fitCenter"
+        android:background="@drawable/icon_set"
         android:src="@drawable/facr"
-        android:background="#ECECEC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -162,9 +162,9 @@
     <ImageButton
         android:layout_width="60dp"
         android:padding="10dp"
-        android:background="#ECECEC"
         android:layout_height="60dp"
         android:layout_marginTop="645dp"
+        android:background="@drawable/icon_set"
         android:src="@drawable/appler"
         android:layout_marginLeft="180dp"
         app:layout_constraintEnd_toEndOf="parent"

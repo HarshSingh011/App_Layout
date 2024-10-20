@@ -41,13 +41,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:background="@drawable/edittext_prop"
             android:fontFamily="@font/poppins_black"
             android:layout_width="match_parent"
             android:layout_marginLeft="220dp"
             android:layout_marginRight="220dp"
             android:layout_height="80dp"
+            android:textColorHint="#757575"
             android:layout_marginTop="190dp"
-            android:background="#F1F4FF"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:padding="12dp"
@@ -57,13 +58,13 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:background="@drawable/edittext_prop"
             android:fontFamily="@font/poppins_black"
             android:layout_width="match_parent"
             android:layout_marginLeft="220dp"
             android:layout_marginRight="220dp"
             android:layout_height="80dp"
             android:layout_marginTop="280dp"
-            android:background="#F1F4FF"
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="12dp"
@@ -74,13 +75,13 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:background="@drawable/edittext_prop"
             android:fontFamily="@font/poppins_black"
             android:layout_width="match_parent"
             android:layout_marginLeft="220dp"
             android:layout_marginRight="220dp"
             android:layout_height="80dp"
             android:layout_marginTop="380dp"
-            android:background="#F1F4FF"
             android:hint="Confirm Password"
             android:inputType="textPassword"
             android:padding="12dp"
