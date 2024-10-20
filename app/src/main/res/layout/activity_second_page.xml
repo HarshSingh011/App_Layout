@@ -8,30 +8,29 @@
     tools:context=".second_page">
 
     <TextView
-        android:fontFamily="poppins"
+
+        android:fontFamily="@font/poppins_black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:text="Login Here"
         android:textAlignment="center"
         android:textColor="#1F41BB"
-        android:textSize="33dp"
-        android:textStyle="bold"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
 
     <TextView
-        android:fontFamily="poppins"
+        android:fontFamily="@font/poppins_black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="110dp"
         android:text="Welcome back you’ve\nbeen missed!"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="33dp"
-        android:textStyle="bold"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -39,12 +38,16 @@
         />
 
     <EditText
-        android:layout_width="300dp"
+        android:style="outlinebox"
+        android:fontFamily="@font/poppins_black"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         android:hint="Email"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:inputType="textPersonName"
         android:layout_marginTop="220dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,13 +55,17 @@
         android:background="#F1F4FF"/>
 
     <EditText
-        android:layout_width="300dp"
+        android:autoFocus="true"
+        android:fontFamily="@font/poppins_black"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="320dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:background="#F1F4FF"
-        android:textSize="33dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="25dp"
         android:textColorHint="#757575"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,11 +89,15 @@
         />
 
     <Button
-        android:layout_width="300dp"
+        android:fontFamily="@font/poppins_black"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="460dp"
         android:backgroundTint="#1f41bb"
         android:text="Login"
+        android:textSize="18dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,7 +105,7 @@
         app:cornerRadius="12dp"/>
 
     <TextView
-        android:fontFamily="poppins"
+        android:id="@+id/createAcc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="550dp"
@@ -108,7 +119,6 @@
         />
 
     <TextView
-        android:fontfamily="poppins"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="600dp"
